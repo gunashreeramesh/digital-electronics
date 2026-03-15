@@ -1,0 +1,27 @@
+# Number Systems in Digital Electronics
+
+A number system is a method used to represent numbers using a set of digits or symbols. 
+Digital systems use different number systems to represent and process data.
+
+## Types of Number Systems
+
+1. Decimal Number System (Base 10)
+Digits used: 0–9  
+Example: 245
+
+2. Binary Number System (Base 2)
+Digits used: 0 and 1  
+Used in computers and digital circuits.
+
+Example: 1011
+
+3. Octal Number System (Base 8)
+Digits used: 0–7  
+Example: 17
+
+4. Hexadecimal Number System (Base 16)
+Digits used: 0–9 and A–F  
+Example: 2A
+
+## Importance in Digital Electronics
+Binary number system is mainly used in digital electronics because digital circuits operate using two states: 0 and 1.
