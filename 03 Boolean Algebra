@@ -1,0 +1,36 @@
+# Boolean Algebra
+
+Boolean Algebra is a mathematical system used to represent and analyze digital circuits. 
+It deals with binary variables and logical operations.
+
+## Basic Boolean Operations
+
+1. AND Operation
+Represented by (·)
+Example: A · B
+
+2. OR Operation
+Represented by (+)
+Example: A + B
+
+3. NOT Operation
+Represented by (')
+Example: A'
+
+## Basic Boolean Laws
+
+1. Identity Law
+A + 0 = A  
+A · 1 = A  
+
+2. Null Law
+A + 1 = 1  
+A · 0 = 0  
+
+3. Idempotent Law
+A + A = A  
+A · A = A  
+
+4. Complement Law
+A + A' = 1  
+A · A' = 0
