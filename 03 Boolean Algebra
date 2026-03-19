@@ -34,3 +34,18 @@ A · A = A
 4. Complement Law
 A + A' = 1  
 A · A' = 0
+
+## De Morgan’s Theorems
+
+(A + B)' = A' . B'  
+(A . B)' = A' + B'## Examples
+
+1. Simplify:
+A + A.B = A
+
+2. Simplify:
+A + A'B = A + B## What I Learned
+
+- Boolean algebra helps in simplifying digital circuits
+- Reduces hardware complexity
+- Important for VLSI and logic design
