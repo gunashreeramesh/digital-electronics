@@ -1,0 +1,90 @@
+# Boolean Simplification Examples
+
+This file contains step-by-step simplification of Boolean expressions using algebraic laws and an introduction to K-Map.
+
+---
+
+## 1. Simplification Using Boolean Laws
+
+### Example 1
+Simplify:  
+A + A.B  
+
+Step 1:  
+A + A.B = A(1 + B)  
+
+Step 2:  
+= A . 1  
+
+Final Answer:  
+= A  
+
+---
+
+### Example 2
+Simplify:  
+A + A'B  
+
+Step 1:  
+A + A'B = (A + A')(A + B)  
+
+Step 2:  
+= 1 . (A + B)  
+
+Final Answer:  
+= A + B  
+
+---
+
+### Example 3
+Simplify:  
+(A + B)(A + B')  
+
+Step 1:  
+= A + BB'  
+
+Step 2:  
+= A + 0  
+
+Final Answer:  
+= A  
+
+---
+
+## 2. Introduction to K-Map
+
+Karnaugh Map (K-Map) is a graphical method used to simplify Boolean expressions.
+
+Advantages:
+- Reduces number of terms
+- Minimizes logic circuits
+- Easy for up to 4 variables
+
+---
+
+## 3. 2-Variable K-Map Example
+
+Given:  
+F(A, B) = Σ(0, 1, 2)
+
+K-Map:
+
+| A\B | 0 | 1 |
+|-----|---|---|
+| 0   | 1 | 1 |
+| 1   | 1 | 0 |
+
+Grouping:
+- First row → A'
+- First column → B'
+
+Final Expression:  
+F = A' + B'
+
+---
+
+## What I Learned
+
+- Boolean algebra helps simplify logic expressions
+- Reduces hardware complexity in digital circuits
+- K-Map is an efficient simplification tool
